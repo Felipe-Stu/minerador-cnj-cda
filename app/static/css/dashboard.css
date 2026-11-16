@@ -1,0 +1,142 @@
+/* === Estilo da Mineradora CNJ === */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 3px solid #00a0e0;
+}
+
+h2 {
+  text-align: center;
+  color: #00a0e0;
+  margin-bottom: 30px;
+}
+
+.arquivo-section label {
+  font-weight: bold;
+  color: #00a0e0;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+.arquivo-section .detalhe {
+  font-weight: normal;
+  font-size: 0.9rem;
+}
+
+.arquivo-box {
+  display: flex;
+  align-items: center;
+  border: 3px solid #00a0e0;
+  padding: 10px;
+  margin-top: 5px;
+  position: relative;
+}
+
+.arquivo-box span {
+  flex-grow: 1;
+  color: #00a0e0;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.icone-pasta {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+  color: #00a0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.2s;
+}
+
+.icone-pasta:hover {
+  opacity: 0.7;
+}
+
+
+.minerar-section h3 {
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #00a0e0;
+  font-size: 1rem;
+}
+
+.opcoes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.opcoes-grid label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 3px solid #00a0e0;
+  padding: 10px;
+  font-weight: bold;
+  color: #00a0e0;
+  cursor: pointer;
+}
+
+.opcoes-grid input[type="radio"] {
+  accent-color: #00a0e0;
+}
+
+button#iniciar {
+  margin-top: 30px;
+  background-color: #00a0e0;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button#iniciar:hover {
+  background-color: #0088c7;
+}
+
+#status {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #00a0e0;
+  font-size: 1.1rem;
+}
+
+#selecionarTudo {
+  background-color: #cceeff; /* azul claro */
+  border: 2px solid #00a0e0;
+  color: #0077aa;
+  font-weight: bold;
+  padding: 10px 20px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: background-color 0.2s ease;
+}
+
+#selecionarTudo:hover {
+  background-color: #b3e6ff;
+}
+

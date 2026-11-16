@@ -1,0 +1,29 @@
+# Ambiente Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+.vscode/
+
+# Dependências do Electron
+node_modules/
+
+# Dados reais e resultados: contêm nomes de partes (dados pessoais, LGPD)
+*.xlsx
+*.csv
+!exemplo_processos.csv
+
+# Segredos
+.env
+.env.*
+
+# Arquivos de terceiros e vazios
+get-pip.py
+TXT Iniciar.txt
+
+# Travas do LibreOffice/Office (contêm usuário e máquina)
+.~lock.*#
+~$*
